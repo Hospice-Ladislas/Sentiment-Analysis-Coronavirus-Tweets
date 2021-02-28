@@ -7,10 +7,10 @@ import sys, csv
 
 ## Personal Tweet Credentials
 
-CONSUMER_KEY            = "5hiCZC3iSItNH5YkxpW12T8sy"   
-CONSUMER_SECRET         = "nkpzKsNU6ZawTxC84oX2VZx1fkaVSP1raPEdhliYL12y6JIqbI"
-ACCESS_TOKEN            = "1242160228105412614-xKlFF37uGDNZ4KjN1KGYfQCrdPxN6x"
-ACCESS_TOKEN_SECRET     = "yUuEvf9xvJ2rTDU7m3UEf74h12Kk3J3LhN5Q4mgL2QcTk"
+CONSUMER_KEY            = ""   
+CONSUMER_SECRET         = ""
+ACCESS_TOKEN            = ""
+ACCESS_TOKEN_SECRET     = ""
 
 auth = tw.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
