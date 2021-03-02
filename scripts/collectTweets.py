@@ -2,15 +2,19 @@
 import pandas as pd
 import tweepy as tw
 import sys, csv
+import json
+
 
 
 
 ## Personal Tweet Credentials
+f = open('../Data/credentials.json',)
+data_credential = json.load(f)
 
-CONSUMER_KEY            = ""   
-CONSUMER_SECRET         = ""
-ACCESS_TOKEN            = ""
-ACCESS_TOKEN_SECRET     = ""
+CONSUMER_KEY            = data_credential["credentials"][0]["CONSUMER_KEY"]   
+CONSUMER_SECRET         = data_credential["credentials"][0]["CONSUMER_SECRET"]
+ACCESS_TOKEN            = data_credential["credentials"][0]["ACCESS_TOKEN"]
+ACCESS_TOKEN_SECRET     = data_credential["credentials"][0]["ACCESS_TOKEN_SECRET"]
 
 auth = tw.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)

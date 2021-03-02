@@ -12,7 +12,6 @@ class Visualization:
         self.df = data
         self.lang = lang
         
-    #def word_cloud(self, lst_word_to_delete):
     def word_cloud(self):
         """
         Generate Word Cloud

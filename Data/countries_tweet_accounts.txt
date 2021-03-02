@@ -1,0 +1,32 @@
+﻿Pays;Institution;Account
+Kenya;Ministry of Health Kenya;MOH_Kenya
+Afrique du Sud;Department of Health South Africa;HealthZA
+Rwanda;Ministry of Health Rwanda;RwandaHealth
+OMS Region Africaine;WHO African Region;WHOAFRO
+Republic Democratique du Congo;Ministère de la Santé RDC;MinSanteRDC
+Nigeria;Federal Ministry of Health of Nigeria;Fmohnigeria
+OMS Ouest Africain;West African Health Organization (WAHO);OoasWaho
+Benin;Gouvernement du Bénin;gouvbenin
+Togo;Ministère de la Santé et de l'hygiène Publique de Togo;MSPS_Togo
+Burkina Faso;Ministère Santé Burkina Faso;SANTE_BF
+Côte d'Ivoire;Ministère de la Santé et de l'Hygiène Publique Côte d'Ivoire;Santeci
+Sénégal;Ministère de la Santé et de l'Action Sociale Sénégal;ministeredelas1
+Ghana;Ministry of Health, Ghana;mohgovgh
+Sierra Leone;Ministry of Health and Sanitation, Sierra Leone;mohs_sl
+Mali;Gouvernement du Mali;GouvernementM
+Niger;Ministère de la santé Niger;MinSanteNiger
+Cameroun;Ministère de la Santé Cameroun;MinsanteC
+Tchad;Ministère de la Santé Tchad;SanteTchad
+Zimbabwe;zimbabwe;MoHCCZim
+Namibie;namibia;MoHSSNamibia
+Bostwana;botwana;BWGovernment
+Lesotho;lesotho;LResponse
+Eswatini;Eswatini;EswatiniGovern1
+Burundi;Burundi;mspls_bdi
+Ethiopie;Ethiopia;FMoHealth
+Malawi;Malawi;health_malawi
+Maurice;Ile Maurice;GovMauritius
+Mozambique;Mozambique;PresidenceMada
+Ouganda;Ouganda;MinofHealthUG
+Tanzanie;Tanzania;tanzaniagov
+Zambie;Zambia;mohzambia
