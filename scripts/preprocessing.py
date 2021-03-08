@@ -15,11 +15,13 @@ class Preprocessing:
         
     def remove_words(self,tweet,lang):
         
+        
+        preliminary_filter = [word for word in tweet.split(" ") if "@" not in word]
+        tweet = " ".join(preliminary_filter)
         transformation = str.maketrans('','',string.punctuation)
         lst_words = [word.lower() for word in tweet.translate(transformation).split() \
                      if word.lower() not in stopwords.words(lang)]
         lst_words = [word for word in lst_words if "http" not in word]
-        lst_words = [word for word in lst_words if "@" not in word]
         lst_words = [word for word in lst_words if word not in self.lst_words]
         
         return " ".join(lst_words)

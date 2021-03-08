@@ -79,7 +79,7 @@ class GraphAnalysis:
         print(f"The maximum degree of the Graph is {np.max(degrees)}")   
         print(f"The minimum degree of the Graph is {np.min(degrees)}")
     
-    def graph_viz(self, graph):
+    def graph_viz(self, graph, k_value):
         
         """
         Visualize the graph
@@ -87,7 +87,7 @@ class GraphAnalysis:
         
         plt.figure(figsize = (20,20))
 
-        pos = nx.spring_layout(graph, k=0.15)
+        pos = nx.spring_layout(graph, k=k_value)
                 
         nx.draw(graph, pos=pos,  cmap=plt.cm.PiYG, edge_color="black", \
                 linewidths=0.3, node_size=3000, alpha=0.6, with_labels=False)
