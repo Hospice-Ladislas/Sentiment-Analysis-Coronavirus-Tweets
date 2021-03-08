@@ -7,8 +7,8 @@ This project aims to collect African health ministries and their subscribers twe
 This project is a Python project. The structure of this package is :
 
 ```
-+-- Data/     # Access data for project: It contains health ministries Twitter Account and credentials.json (to fill by your own credentials) 
-              # for scraping tweets
++-- Data/     # Access data for project: It contains health ministries Twitter Account and 
+              # credentials.json (to fill by your own credentials) for scraping tweets
               
 +-- scripts/  # Contains project scripts
    -- collectTweets.py : Script for collecting tweets via TwitterAPI. Launch it by : python collectTweets.py
